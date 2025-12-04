@@ -1,0 +1,24 @@
+# Dependency directories
+bin/
+obj/
+node_modules/
+
+# User-specific settings
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# Sensitive Files (Tùy chọn: Nếu muốn bảo mật file cấu hình local)
+# appsettings.Development.json
