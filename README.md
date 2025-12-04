@@ -19,7 +19,7 @@ Gợi ý phát triển: cài extension **Dev Containers** (`ms-vscode-remote.rem
 
 1) Clone repository và mở project:
 ```bash
-git clone <URL-repo>
+git clone "https://github.com/labfe44-cloud/my-webapp"
 cd my-webapp
 code .
 ```
