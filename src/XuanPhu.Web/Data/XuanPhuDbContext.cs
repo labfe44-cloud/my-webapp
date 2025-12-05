@@ -2,9 +2,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace XuanPhu.Web.Data
 {
-    public class AppDbContext : DbContext
+    public class XuanPhuDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        public XuanPhuDbContext(DbContextOptions<XuanPhuDbContext> options) : base(options)
         {
         }
 
