@@ -22,3 +22,4 @@ docker-compose.override.yml
 
 # Sensitive Files (Tùy chọn: Nếu muốn bảo mật file cấu hình local)
 # appsettings.Development.json
+.vs/

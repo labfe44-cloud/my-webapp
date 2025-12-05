@@ -16,23 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\Api\" />
-    <Folder Include="data\Migrations\" />
-    <Folder Include="Models\Entities\" />
-    <Folder Include="Models\Mapping\" />
-    <Folder Include="Models\ViewModels\Home\" />
-    <Folder Include="Models\ViewModels\Blog\" />
-    <Folder Include="Models\ViewModels\Event\" />
-    <Folder Include="Models\ViewModels\Map\" />
-    <Folder Include="Models\ViewModels\Admin\" />
-    <Folder Include="Models\ViewModels\Shared\" />
-    <Folder Include="Models\ViewModels\Tour\" />
-    <Folder Include="Views\Home\" />
-    <Folder Include="Views\Blog\" />
-    <Folder Include="Views\Event\" />
-    <Folder Include="Views\Map\" />
-    <Folder Include="Views\Admin\" />
-    <Folder Include="Views\Tour\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
