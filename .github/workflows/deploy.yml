@@ -23,7 +23,7 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}      # private key của user đó
           script: |
             echo "➡️ CD vào thư mục project"
-            cd /srv/workspace/my-webapp
+            cd /home/admin/Documents/Labfe_44/srv/workspace/my-webapp
 
             echo "➡️ Đồng bộ code với remote main"
             git fetch origin
