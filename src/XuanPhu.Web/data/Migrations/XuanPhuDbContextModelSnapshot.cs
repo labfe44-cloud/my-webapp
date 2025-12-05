@@ -1,4 +1,4 @@
-﻿namespace XuanPhu.Web.data.Migrations
+﻿namespace XuanPhu.Web.Data.Migrations
 {
     public class XuanPhuDbContextModelSnapshot
     {
