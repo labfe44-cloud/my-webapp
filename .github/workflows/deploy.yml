@@ -1,0 +1,38 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main          # nếu bạn deploy từ nhánh khác thì đổi ở đây
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # (1) Checkout code của repo (để sau này cần build/test trên GitHub)
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # (2) SSH vào server và deploy
+      - name: SSH to Server and Deploy
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: ${{ secrets.SERVER_IP }}          # IP server AlmaLinux
+          username: ${{ secrets.SERVER_USER }}    # user có quyền docker (vd: admin)
+          key: ${{ secrets.SERVER_SSH_KEY }}      # private key của user đó
+          script: |
+            echo "➡️ CD vào thư mục project"
+            cd /srv/workspace/my-webapp
+
+            echo "➡️ Đồng bộ code với remote main"
+            git fetch origin
+            git reset --hard origin/main
+
+            echo "➡️ Dừng container cũ (nếu có)"
+            docker compose -f docker/docker-compose.dev.yml down
+
+            echo "➡️ Build & chạy container mới"
+            docker compose -f docker/docker-compose.dev.yml up -d --build
+
+            echo "✅ Deploy xong"
