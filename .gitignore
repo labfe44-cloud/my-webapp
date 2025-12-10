@@ -24,3 +24,4 @@ docker-compose.override.yml
 # appsettings.Development.json
 .vs/actions-runner/
 actions-runner/
+.vs/
