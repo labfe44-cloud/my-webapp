@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\WEB-APP XUANPHU\\my-webapp\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2214DDB4-D4B5-430C-B371-38F503BA8A2F}|XuanPhu.Web\\XuanPhu.Web.csproj|d:\\web-app xuanphu\\my-webapp\\src\\xuanphu.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2214DDB4-D4B5-430C-B371-38F503BA8A2F}|XuanPhu.Web\\XuanPhu.Web.csproj|solutionrelative:xuanphu.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2214DDB4-D4B5-430C-B371-38F503BA8A2F}|XuanPhu.Web\\XuanPhu.Web.csproj|d:\\web-app xuanphu\\my-webapp\\src\\xuanphu.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2214DDB4-D4B5-430C-B371-38F503BA8A2F}|XuanPhu.Web\\XuanPhu.Web.csproj|solutionrelative:xuanphu.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2214DDB4-D4B5-430C-B371-38F503BA8A2F}|XuanPhu.Web\\XuanPhu.Web.csproj|d:\\web-app xuanphu\\my-webapp\\src\\xuanphu.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2214DDB4-D4B5-430C-B371-38F503BA8A2F}|XuanPhu.Web\\XuanPhu.Web.csproj|solutionrelative:xuanphu.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2214DDB4-D4B5-430C-B371-38F503BA8A2F}|XuanPhu.Web\\XuanPhu.Web.csproj|d:\\web-app xuanphu\\my-webapp\\src\\xuanphu.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2214DDB4-D4B5-430C-B371-38F503BA8A2F}|XuanPhu.Web\\XuanPhu.Web.csproj|solutionrelative:xuanphu.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2214DDB4-D4B5-430C-B371-38F503BA8A2F}|XuanPhu.Web\\XuanPhu.Web.csproj|d:\\web-app xuanphu\\my-webapp\\src\\xuanphu.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2214DDB4-D4B5-430C-B371-38F503BA8A2F}|XuanPhu.Web\\XuanPhu.Web.csproj|solutionrelative:xuanphu.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\WEB-APP XUANPHU\\my-webapp\\src\\XuanPhu.Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "XuanPhu.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\WEB-APP XUANPHU\\my-webapp\\src\\XuanPhu.Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "XuanPhu.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\WEB-APP XUANPHU\\my-webapp\\src\\XuanPhu.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "XuanPhu.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\WEB-APP XUANPHU\\my-webapp\\src\\XuanPhu.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "XuanPhu.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-05T02:21:32.631Z",
+              "WhenOpened": "2025-12-05T03:48:48.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\WEB-APP XUANPHU\\my-webapp\\src\\XuanPhu.Web\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "XuanPhu.Web\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\WEB-APP XUANPHU\\my-webapp\\src\\XuanPhu.Web\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "XuanPhu.Web\\Views\\Home\\Privacy.cshtml",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\WEB-APP XUANPHU\\my-webapp\\src\\XuanPhu.Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "XuanPhu.Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\WEB-APP XUANPHU\\my-webapp\\src\\XuanPhu.Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "XuanPhu.Web\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-05T02:21:25.716Z",
+              "WhenOpened": "2025-12-05T03:48:23.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\WEB-APP XUANPHU\\my-webapp\\src\\XuanPhu.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "XuanPhu.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\WEB-APP XUANPHU\\my-webapp\\src\\XuanPhu.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "XuanPhu.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T03:48:23.229Z",
               "EditorCaption": ""
             }
           ]
